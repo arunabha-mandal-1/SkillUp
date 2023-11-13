@@ -1,4 +1,4 @@
-package com.example.skillup.model
+package com.arunabha.skillup.model
 
 data class Student(
     val studentId: String,

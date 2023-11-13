@@ -1,4 +1,4 @@
-package com.example.skillup
+package com.arunabha.skillup
 
 import org.junit.Test
 

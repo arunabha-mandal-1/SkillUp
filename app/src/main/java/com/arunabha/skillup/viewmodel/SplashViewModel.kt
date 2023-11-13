@@ -1,4 +1,4 @@
-package com.example.skillup.viewmodel
+package com.arunabha.skillup.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

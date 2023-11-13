@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.App.Starting"
+        android:theme="@style/Theme.SkillUp"
         tools:targetApi="31">
         <activity
             android:name="com.arunabha.skillup.view.StudentSignInSignUpActivity"
@@ -19,8 +19,9 @@
             android:name="com.arunabha.skillup.view.TeacherSignInSignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".view.UserRoleActivity"
-            android:exported="true">
+            android:name="com.arunabha.skillup.view.UserRoleActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
