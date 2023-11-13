@@ -13,6 +13,12 @@
         android:theme="@style/Theme.App.Starting"
         tools:targetApi="31">
         <activity
+            android:name="com.arunabha.skillup.view.StudentSignInSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.arunabha.skillup.view.TeacherSignInSignUpActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.UserRoleActivity"
             android:exported="true">
             <intent-filter>
